@@ -1,0 +1,34 @@
+# Local application snapshots and source trees
+/vaultfolio/
+
+# Home Assistant audits contain device names, entity ids, state snapshots, and
+# local home topology. Keep them local unless a sanitized subset is added later.
+/homeassistant-optimization/
+
+# Runtime data, secrets, and local caches
+/.env
+/.env.*
+!.env.example
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.tar
+*.tar.gz
+*.zip
+*.log
+*.pid
+*.tmp
+
+# Agent/session runtime output
+/.codex-agent-workdir/
+/.agents/runtime/
+/.agents/cache/
+/.agents/tmp/
+
+# OS/editor noise
+.DS_Store
+._*
+*.swp
+*.swo
+
