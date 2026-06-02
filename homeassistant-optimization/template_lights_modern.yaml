@@ -1,0 +1,123 @@
+# Modern Home Assistant template light wrappers.
+# Add this as a top-level `template:` block, or merge the list items into an existing `template:` block.
+template:
+  - light:
+      - name: "厨房灯"
+        unique_id: kitchen_main_light
+        state: "{{ is_state('switch.linp_cn_2002626186_t2dbw3_on_p_2_1', 'on') }}"
+        turn_on:
+          - service: switch.turn_on
+            target:
+              entity_id: switch.linp_cn_2002626186_t2dbw3_on_p_2_1
+        turn_off:
+          - service: switch.turn_off
+            target:
+              entity_id: switch.linp_cn_2002626186_t2dbw3_on_p_2_1
+
+      - name: "餐厅壁灯"
+        unique_id: dining_wall_light
+        state: "{{ is_state('switch.linp_cn_2002626186_t2dbw3_on_p_3_1', 'on') }}"
+        turn_on:
+          - service: switch.turn_on
+            target:
+              entity_id: switch.linp_cn_2002626186_t2dbw3_on_p_3_1
+        turn_off:
+          - service: switch.turn_off
+            target:
+              entity_id: switch.linp_cn_2002626186_t2dbw3_on_p_3_1
+
+      - name: "餐桌灯"
+        unique_id: dining_table_light
+        state: "{{ is_state('switch.linp_cn_2002626186_t2dbw3_on_p_4_1', 'on') }}"
+        turn_on:
+          - service: switch.turn_on
+            target:
+              entity_id: switch.linp_cn_2002626186_t2dbw3_on_p_4_1
+        turn_off:
+          - service: switch.turn_off
+            target:
+              entity_id: switch.linp_cn_2002626186_t2dbw3_on_p_4_1
+
+      - name: "烟花灯"
+        unique_id: hallway_firework_light
+        state: "{{ is_state('switch.linp_cn_2002874216_t2dbw3_on_p_3_1', 'on') }}"
+        turn_on:
+          - service: switch.turn_on
+            target:
+              entity_id: switch.linp_cn_2002874216_t2dbw3_on_p_3_1
+        turn_off:
+          - service: switch.turn_off
+            target:
+              entity_id: switch.linp_cn_2002874216_t2dbw3_on_p_3_1
+
+      - name: "客厅射灯"
+        unique_id: living_room_spotlight_switched
+        state: "{{ is_state('switch.linp_cn_2002874216_t2dbw3_on_p_4_1', 'on') }}"
+        turn_on:
+          - service: switch.turn_on
+            target:
+              entity_id: switch.linp_cn_2002874216_t2dbw3_on_p_4_1
+        turn_off:
+          - service: switch.turn_off
+            target:
+              entity_id: switch.linp_cn_2002874216_t2dbw3_on_p_4_1
+
+      - name: "阳台吸顶灯"
+        unique_id: balcony_ceiling_light
+        state: "{{ is_state('switch.linp_cn_2021957403_t2dbw2_on_p_2_1', 'on') }}"
+        turn_on:
+          - service: switch.turn_on
+            target:
+              entity_id: switch.linp_cn_2021957403_t2dbw2_on_p_2_1
+        turn_off:
+          - service: switch.turn_off
+            target:
+              entity_id: switch.linp_cn_2021957403_t2dbw2_on_p_2_1
+
+      - name: "主卧壁灯"
+        unique_id: bedroom_wall_light
+        state: "{{ is_state('switch.linp_cn_2022408943_t2dbw2_on_p_2_1', 'on') }}"
+        turn_on:
+          - service: switch.turn_on
+            target:
+              entity_id: switch.linp_cn_2022408943_t2dbw2_on_p_2_1
+        turn_off:
+          - service: switch.turn_off
+            target:
+              entity_id: switch.linp_cn_2022408943_t2dbw2_on_p_2_1
+
+      - name: "主卧吸顶灯"
+        unique_id: bedroom_ceiling_light
+        state: "{{ is_state('switch.linp_cn_2022408943_t2dbw2_on_p_3_1', 'on') }}"
+        turn_on:
+          - service: switch.turn_on
+            target:
+              entity_id: switch.linp_cn_2022408943_t2dbw2_on_p_3_1
+        turn_off:
+          - service: switch.turn_off
+            target:
+              entity_id: switch.linp_cn_2022408943_t2dbw2_on_p_3_1
+
+      - name: "书房吸顶灯"
+        unique_id: study_ceiling_light
+        state: "{{ is_state('switch.linp_cn_2022388066_t2dbw2_on_p_2_1', 'on') }}"
+        turn_on:
+          - service: switch.turn_on
+            target:
+              entity_id: switch.linp_cn_2022388066_t2dbw2_on_p_2_1
+        turn_off:
+          - service: switch.turn_off
+            target:
+              entity_id: switch.linp_cn_2022388066_t2dbw2_on_p_2_1
+
+      - name: "浴室镜灯"
+        unique_id: bathroom_mirror_light
+        state: "{{ is_state('switch.giot_cn_2022913171_v9icm_on_p_2_1', 'on') }}"
+        turn_on:
+          - service: switch.turn_on
+            target:
+              entity_id: switch.giot_cn_2022913171_v9icm_on_p_2_1
+        turn_off:
+          - service: switch.turn_off
+            target:
+              entity_id: switch.giot_cn_2022913171_v9icm_on_p_2_1

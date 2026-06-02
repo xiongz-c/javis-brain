@@ -1,0 +1,208 @@
+# Core Home Assistant semantics for Jarvis.
+# This file is intentionally small. Use entity_audit.json for full raw audit data.
+generated_at: "2026-05-30T16:25:00Z"
+source: "Home Assistant registry + Jarvis review"
+
+rules:
+  prefer_this_file_over_name_guessing: true
+  indicator_lights_are_not_room_lighting: true
+  switch_backed_lights_should_be_treated_as_lights: true
+  grouped_lights_are_preferred_for_daily_control: true
+  individual_downlights_are_visible_for_diagnostics_but_not_daily_default: true
+  confirm_before_sensitive_actions: true
+  low_risk_controls:
+    - light
+    - climate
+    - ordinary_plug
+  sensitive_keywords:
+    - "门锁"
+    - "安防"
+    - "报警"
+    - "燃气"
+    - "加热"
+    - "辅热"
+    - "浴霸"
+    - "高功率"
+    - "删除"
+    - "支付"
+    - "资产变更"
+  ignore_or_auxiliary_patterns:
+    - "*自定义属性*"
+    - "*设置模式*"
+    - "*遥控地址*"
+    - "*情景模式*"
+    - "*按键私有协议*"
+    - "*学习上报*"
+    - "*清除配对*"
+    - "*清除互控*"
+    - "*凌动开关*"
+    - "*关闭上电色温切换*"
+    - "*夜灯开关*"
+    - "notify.*"
+    - "button.*"
+    - "event.*"
+    - "number.*"
+    - "select.*"
+
+rooms:
+  餐厨:
+    lights:
+      - name: "厨房灯"
+        proposed_entity_id: "light.kitchen_main_light"
+        backing_entity: "switch.linp_cn_2002626186_t2dbw3_on_p_2_1"
+        type: "non_smart_light_via_switch"
+      - name: "餐厅壁灯"
+        proposed_entity_id: "light.dining_wall_light"
+        backing_entity: "switch.linp_cn_2002626186_t2dbw3_on_p_3_1"
+        type: "non_smart_light_via_switch"
+      - name: "餐桌灯"
+        proposed_entity_id: "light.dining_table_light"
+        backing_entity: "switch.linp_cn_2002626186_t2dbw3_on_p_4_1"
+        type: "non_smart_light_via_switch"
+
+  走廊:
+    lights:
+      - name: "烟花灯"
+        proposed_entity_id: "light.hallway_firework_light"
+        backing_entity: "switch.linp_cn_2002874216_t2dbw3_on_p_3_1"
+        type: "non_smart_light_via_switch"
+      - name: "客厅射灯"
+        proposed_entity_id: "light.living_room_spotlight_switched"
+        backing_entity: "switch.linp_cn_2002874216_t2dbw3_on_p_4_1"
+        type: "non_smart_light_via_switch"
+        note: "Area comes from the switch; physical light name says 客厅射灯."
+
+  阳台:
+    lights:
+      - name: "阳台吸顶灯"
+        proposed_entity_id: "light.balcony_ceiling_light"
+        backing_entity: "switch.linp_cn_2021957403_t2dbw2_on_p_2_1"
+        type: "non_smart_light_via_switch"
+
+  主卧:
+    lights:
+      - name: "主卧壁灯"
+        proposed_entity_id: "light.bedroom_wall_light"
+        backing_entity: "switch.linp_cn_2022408943_t2dbw2_on_p_2_1"
+        type: "non_smart_light_via_switch"
+      - name: "主卧吸顶灯"
+        proposed_entity_id: "light.bedroom_ceiling_light"
+        backing_entity: "switch.linp_cn_2022408943_t2dbw2_on_p_3_1"
+        type: "non_smart_light_via_switch"
+      - name: "衣柜灯"
+        entity_id: "light.lemesh_cn_2042902967_wy0d02_s_2_light"
+        type: "native_light"
+    climate:
+      - name: "主卧空调"
+        entity_id: "climate.xiaomi_cn_862194962_m28"
+        type: "climate"
+
+  书房:
+    lights:
+      - name: "书房吸顶灯"
+        proposed_entity_id: "light.study_ceiling_light"
+        backing_entity: "switch.linp_cn_2022388066_t2dbw2_on_p_2_1"
+        type: "non_smart_light_via_switch"
+    climate:
+      - name: "书房空调"
+        entity_id: "climate.xiaomi_cn_2007224174_r10h00"
+        type: "climate"
+
+  浴室:
+    lights:
+      - name: "浴室镜灯"
+        proposed_entity_id: "light.bathroom_mirror_light"
+        backing_entity: "switch.giot_cn_2022913171_v9icm_on_p_2_1"
+        type: "non_smart_light_via_switch"
+      - name: "主卧门外筒灯"
+        entity_id: "light.090615_cn_2041100467_milg05_s_2_light"
+        type: "native_light"
+      - name: "浴室门外筒灯"
+        entity_id: "light.090615_cn_2041206709_milg05_s_2_light"
+        type: "native_light"
+      - name: "浴室外筒灯"
+        entity_id: "light.mijia_cn_group_1978088695174021121_group3_s_2_light"
+        type: "group_light"
+        preferred_for_daily_control: true
+      - name: "浴霸灯"
+        entity_id: "light.aupu_cn_965024497_s01md2_s_2_light"
+        type: "native_light"
+        sensitive: true
+
+  厨房:
+    lights:
+      - name: "厨房筒灯"
+        entity_id: "light.mijia_cn_group_1978090431347445760_group3_s_2_light"
+        type: "group_light"
+        preferred_for_daily_control: true
+      - name: "油烟机灯"
+        entity_id: "light.xiaomi_cn_2047692781_cyp10_s_6_light"
+        type: "native_light"
+    diagnostic_lights:
+      - name: "厨房筒射灯 5"
+        entity_id: "light.090615_cn_2022075801_milg05_s_2_light"
+        type: "individual_downlight"
+        note: "Usually controlled via 厨房筒灯 group."
+      - name: "厨房筒射灯 6"
+        entity_id: "light.090615_cn_2022159375_milg05_s_2_light"
+        type: "individual_downlight"
+        note: "Usually controlled via 厨房筒灯 group."
+      - name: "厨房筒射灯 7"
+        entity_id: "light.090615_cn_2041206744_milg05_s_2_light"
+        type: "individual_downlight"
+        note: "Usually controlled via 厨房筒灯 group."
+      - name: "厨房筒射灯 8"
+        entity_id: "light.090615_cn_2020766823_milg05_s_2_light"
+        type: "individual_downlight"
+        note: "Usually controlled via 厨房筒灯 group."
+
+  客厅:
+    lights:
+      - name: "电视墙射灯"
+        entity_id: "light.mijia_cn_group_1978089154580332544_group3_s_2_light"
+        type: "group_light"
+        preferred_for_daily_control: true
+    diagnostic_lights:
+      - name: "客厅筒射灯 1"
+        entity_id: "light.090615_cn_947770195_milg05_s_2_light"
+        type: "individual_downlight"
+        note: "Usually controlled via 电视墙射灯 or another room/group light."
+      - name: "客厅筒射灯 2"
+        entity_id: "light.090615_cn_947717173_milg05_s_2_light"
+        type: "individual_downlight"
+        note: "Usually controlled via 电视墙射灯 or another room/group light."
+      - name: "客厅筒射灯 3"
+        entity_id: "light.090615_cn_2041348683_milg05_s_2_light"
+        type: "individual_downlight"
+        note: "Usually controlled via 电视墙射灯 or another room/group light."
+      - name: "客厅筒射灯 4"
+        entity_id: "light.090615_cn_2022122260_milg05_s_2_light"
+        type: "individual_downlight"
+        note: "Usually controlled via 电视墙射灯 or another room/group light."
+    plugs:
+      - name: "智能插座"
+        entity_id: "switch.cuco_cn_482606571_cp1_on_p_2_1"
+        type: "ordinary_plug"
+
+  玄关:
+    lights:
+      - name: "鞋柜灯"
+        entity_id: "light.lemesh_cn_2042893932_wy0d02_s_2_light"
+        type: "native_light"
+      - name: "玄关筒灯"
+        entity_id: "light.mijia_cn_group_1978089679472308224_group3_s_2_light"
+        type: "native_light"
+
+indicator_lights:
+  - "light.xiaomi_cn_1179553687_hub1_s_3_indicator_light"
+  - "light.linp_cn_2002626186_t2dbw3_s_8_indicator_light"
+  - "light.linp_cn_2002874216_t2dbw3_s_8_indicator_light"
+  - "light.linp_cn_2021957403_t2dbw2_s_8_indicator_light"
+  - "light.cuco_cn_482606571_cp1_s_3_indicator_light"
+  - "light.linp_cn_2022408943_t2dbw2_s_8_indicator_light"
+  - "light.xiaomi_cn_862194962_m28_s_6_indicator_light"
+  - "light.xiaomi_cn_2007224174_r10h00_s_6_indicator_light"
+  - "light.linp_cn_2022388066_t2dbw2_s_8_indicator_light"
+  - "light.linp_cn_2022466912_t2dbw2_s_8_indicator_light"
+  - "light.linp_cn_2022822455_t2dbw2_s_8_indicator_light"
+  - "light.linp_cn_2043319688_t2dbw2_s_8_indicator_light"

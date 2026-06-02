@@ -1,0 +1,57 @@
+# Optional Lovelace view for daily controls.
+# This is intentionally human-facing and omits auxiliary diagnostic/config entities.
+title: Daily Home
+views:
+  - title: 日常
+    path: daily
+    icon: mdi:home
+    cards:
+      - type: entities
+        title: 餐厨 / 走廊
+        entities:
+          - light.kitchen_main_light
+          - light.dining_wall_light
+          - light.dining_table_light
+          - light.hallway_firework_light
+          - light.living_room_spotlight_switched
+
+      - type: entities
+        title: 客厅
+        entities:
+          - light.mijia_cn_group_1978089154580332544_group3_s_2_light
+          - switch.cuco_cn_482606571_cp1_on_p_2_1
+
+      - type: entities
+        title: 厨房
+        entities:
+          - light.mijia_cn_group_1978090431347445760_group3_s_2_light
+          - light.xiaomi_cn_2047692781_cyp10_s_6_light
+
+      - type: entities
+        title: 主卧 / 书房
+        entities:
+          - light.bedroom_wall_light
+          - light.bedroom_ceiling_light
+          - light.lemesh_cn_2042902967_wy0d02_s_2_light
+          - climate.xiaomi_cn_862194962_m28
+          - light.study_ceiling_light
+          - climate.xiaomi_cn_2007224174_r10h00
+
+      - type: entities
+        title: 浴室 / 玄关
+        entities:
+          - light.bathroom_mirror_light
+          - light.mijia_cn_group_1978088695174021121_group3_s_2_light
+          - light.090615_cn_2041100467_milg05_s_2_light
+          - light.090615_cn_2041206709_milg05_s_2_light
+          - light.aupu_cn_965024497_s01md2_s_2_light
+          - light.lemesh_cn_2042893932_wy0d02_s_2_light
+          - light.mijia_cn_group_1978089679472308224_group3_s_2_light
+
+      - type: entities
+        title: 维护信号
+        show_header_toggle: false
+        entities:
+          - sensor.xiaomi_cn_862194962_m28_filter_screen_status_p_2_21
+          - sensor.xiaomi_cn_862194962_m28_filter_life_level_p_24_1
+          - sensor.xiaomi_cn_2007224174_r10h00_filter_life_level_p_21_1

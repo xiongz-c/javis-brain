@@ -1,0 +1,1557 @@
+[
+  {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "01KSVFYW8F09GY0SFATK7YED6P"
+    ],
+    "config_entries_subentries": {
+      "01KSVFYW8F09GY0SFATK7YED6P": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1780112912.657953,
+    "disabled_by": null,
+    "entry_type": "service",
+    "hw_version": null,
+    "id": "fdc1b4bbed7ffd4ea9ef08ffceb9a3ee",
+    "identifiers": [
+      [
+        "sun",
+        "01KSVFYW8F09GY0SFATK7YED6P"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": null,
+    "model": null,
+    "model_id": null,
+    "modified_at": 1780112912.657997,
+    "name_by_user": null,
+    "name": "Sun",
+    "primary_config_entry": "01KSVFYW8F09GY0SFATK7YED6P",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": "homeassistant://config/backup",
+    "config_entries": [
+      "01KSVFYWKV6EBG9YXB68DTPEPK"
+    ],
+    "config_entries_subentries": {
+      "01KSVFYWKV6EBG9YXB68DTPEPK": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1780112913.060827,
+    "disabled_by": null,
+    "entry_type": "service",
+    "hw_version": null,
+    "id": "6226067876134a26ab0c2d2f4effe0bf",
+    "identifiers": [
+      [
+        "backup",
+        "backup_manager"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Home Assistant",
+    "model": "Home Assistant Backup",
+    "model_id": null,
+    "modified_at": 1780112913.060878,
+    "name_by_user": null,
+    "name": "Backup",
+    "primary_config_entry": "01KSVFYWKV6EBG9YXB68DTPEPK",
+    "serial_number": null,
+    "sw_version": "2025.5.3",
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": "https://www.met.no/en",
+    "config_entries": [
+      "01KSVG2AMEZTP993XRHDRME21W"
+    ],
+    "config_entries_subentries": {
+      "01KSVG2AMEZTP993XRHDRME21W": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1780113028.665933,
+    "disabled_by": null,
+    "entry_type": "service",
+    "hw_version": null,
+    "id": "075a36de816e9e1b001dcb78e6efce0d",
+    "identifiers": [
+      [
+        "met",
+        "01KSVG2AMEZTP993XRHDRME21W"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Met.no",
+    "model": "Forecast",
+    "model_id": null,
+    "modified_at": 1780113028.66598,
+    "name_by_user": null,
+    "name": "Forecast",
+    "primary_config_entry": "01KSVG2AMEZTP993XRHDRME21W",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": "ke_ting",
+    "configuration_url": null,
+    "config_entries": [
+      "01KSVG40YRKA105M2T9DXX6667"
+    ],
+    "config_entries_subentries": {
+      "01KSVG40YRKA105M2T9DXX6667": [
+        null
+      ]
+    },
+    "connections": [
+      [
+        "mac",
+        "f2:2f:a4:1d:72:e4"
+      ]
+    ],
+    "created_at": 1780113081.832652,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "f76573f05c11ea56bc3fed3ec465e897",
+    "identifiers": [
+      [
+        "apple_tv",
+        "F2:2F:A4:1D:72:E4"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Apple",
+    "model": "HomePod Mini",
+    "model_id": null,
+    "modified_at": 1780113087.951591,
+    "name_by_user": null,
+    "name": "HomePod mini",
+    "primary_config_entry": "01KSVG40YRKA105M2T9DXX6667",
+    "serial_number": null,
+    "sw_version": "26.5",
+    "via_device_id": null
+  },
+  {
+    "area_id": "ke_ting",
+    "configuration_url": null,
+    "config_entries": [
+      "01KSVGA7QDYE71V2ZWN2WTPNZB"
+    ],
+    "config_entries_subentries": {
+      "01KSVGA7QDYE71V2ZWN2WTPNZB": [
+        null
+      ]
+    },
+    "connections": [
+      [
+        "mac",
+        "52:54:00:70:2f:c8"
+      ]
+    ],
+    "created_at": 1780113289.848814,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "3986f41b66598eb5dc25dacdc94af761",
+    "identifiers": [
+      [
+        "apple_tv",
+        "52:54:00:70:2f:c8"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Apple",
+    "model": "Apple TV 3",
+    "model_id": null,
+    "modified_at": 1780113302.143449,
+    "name_by_user": null,
+    "name": "TCL 65T7L Ultra-1ae1(192.168.5.3)",
+    "primary_config_entry": "01KSVGA7QDYE71V2ZWN2WTPNZB",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": "ke_ting",
+    "configuration_url": null,
+    "config_entries": [
+      "01KSVGDN3KWE25K6BN13RRBAHX"
+    ],
+    "config_entries_subentries": {
+      "01KSVGDN3KWE25K6BN13RRBAHX": [
+        null
+      ]
+    },
+    "connections": [
+      [
+        "mac",
+        "b6:ef:ca:bb:49:1b"
+      ]
+    ],
+    "created_at": 1780113397.028538,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "c4055ddc0af3da30f5678f9f8554ad2c",
+    "identifiers": [
+      [
+        "apple_tv",
+        "B6:EF:CA:BB:49:1B"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Apple",
+    "model": "Apple TV 4K (gen 3)",
+    "model_id": null,
+    "modified_at": 1780113403.283104,
+    "name_by_user": null,
+    "name": "zc's ATV",
+    "primary_config_entry": "01KSVGDN3KWE25K6BN13RRBAHX",
+    "serial_number": null,
+    "sw_version": "26.5",
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": "homeassistant://hacs",
+    "config_entries": [
+      "01KSVKC7BV202Z96D7G6YARAS0"
+    ],
+    "config_entries_subentries": {
+      "01KSVKC7BV202Z96D7G6YARAS0": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1780116500.76755,
+    "disabled_by": null,
+    "entry_type": "service",
+    "hw_version": null,
+    "id": "936f38cf5f443426abf04747bdd8e43e",
+    "identifiers": [
+      [
+        "hacs",
+        "0717a0cd-745c-48fd-9b16-c8534c9704f9-bc944b0f-fd42-4a58-a072-ade38d1444cd"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "hacs.xyz",
+    "model": "",
+    "model_id": null,
+    "modified_at": 1780116500.767684,
+    "name_by_user": null,
+    "name": "HACS",
+    "primary_config_entry": "01KSVKC7BV202Z96D7G6YARAS0",
+    "serial_number": null,
+    "sw_version": "2.0.5",
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": "homeassistant://hacs/repository/854347601",
+    "config_entries": [
+      "01KSVKC7BV202Z96D7G6YARAS0"
+    ],
+    "config_entries_subentries": {
+      "01KSVKC7BV202Z96D7G6YARAS0": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1780118188.964689,
+    "disabled_by": null,
+    "entry_type": "service",
+    "hw_version": null,
+    "id": "c6a675bf4dd93b46efb7bf9b73fb79c2",
+    "identifiers": [
+      [
+        "hacs",
+        "854347601"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "XiaoMi",
+    "model": "integration",
+    "model_id": null,
+    "modified_at": 1780118188.965123,
+    "name_by_user": null,
+    "name": "Xiaomi Home",
+    "primary_config_entry": "01KSVKC7BV202Z96D7G6YARAS0",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": "ke_ting",
+    "configuration_url": "https://home.mi.com/webapp/content/baike/product/index.html?model=xiaomi.gateway.hub1",
+    "config_entries": [
+      "01KSVTE3BADZN42A3VAQHKNFYW"
+    ],
+    "config_entries_subentries": {
+      "01KSVTE3BADZN42A3VAQHKNFYW": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1780123906.72019,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "363dba24168fb9c4057ec19e59d232df",
+    "identifiers": [
+      [
+        "xiaomi_home",
+        "cn_1179553687"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "小米",
+    "model": "xiaomi.gateway.hub1",
+    "model_id": null,
+    "modified_at": 1780123906.720441,
+    "name_by_user": null,
+    "name": "Xiaomi 中枢网关",
+    "primary_config_entry": "01KSVTE3BADZN42A3VAQHKNFYW",
+    "serial_number": null,
+    "sw_version": "3.4.0_0023",
+    "via_device_id": null
+  },
+  {
+    "area_id": "ke_ting",
+    "configuration_url": "https://home.mi.com/webapp/content/baike/product/index.html?model=linp.switch.t2dbw3",
+    "config_entries": [
+      "01KSVTE3BADZN42A3VAQHKNFYW"
+    ],
+    "config_entries_subentries": {
+      "01KSVTE3BADZN42A3VAQHKNFYW": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1780123906.722589,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "24780845036561211bfcc1c5aa952242",
+    "identifiers": [
+      [
+        "xiaomi_home",
+        "cn_2002626186"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "linptech",
+    "model": "linp.switch.t2dbw3",
+    "model_id": null,
+    "modified_at": 1780123906.722644,
+    "name_by_user": null,
+    "name": "餐厨开关（三键）",
+    "primary_config_entry": "01KSVTE3BADZN42A3VAQHKNFYW",
+    "serial_number": null,
+    "sw_version": "3.0.2_0017",
+    "via_device_id": null
+  },
+  {
+    "area_id": "ke_ting",
+    "configuration_url": "https://home.mi.com/webapp/content/baike/product/index.html?model=linp.switch.t2dbw3",
+    "config_entries": [
+      "01KSVTE3BADZN42A3VAQHKNFYW"
+    ],
+    "config_entries_subentries": {
+      "01KSVTE3BADZN42A3VAQHKNFYW": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1780123906.729557,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "bdad3c6cec8c8da17324bec29fb59b91",
+    "identifiers": [
+      [
+        "xiaomi_home",
+        "cn_2002874216"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "linptech",
+    "model": "linp.switch.t2dbw3",
+    "model_id": null,
+    "modified_at": 1780123906.729655,
+    "name_by_user": null,
+    "name": "左键-走廊开关",
+    "primary_config_entry": "01KSVTE3BADZN42A3VAQHKNFYW",
+    "serial_number": null,
+    "sw_version": "3.0.2_0017",
+    "via_device_id": null
+  },
+  {
+    "area_id": "ke_ting",
+    "configuration_url": "https://home.mi.com/webapp/content/baike/product/index.html?model=linp.switch.t2dbw2",
+    "config_entries": [
+      "01KSVTE3BADZN42A3VAQHKNFYW"
+    ],
+    "config_entries_subentries": {
+      "01KSVTE3BADZN42A3VAQHKNFYW": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1780123906.73704,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "3a3925caeb6b7f8613843fbe13792851",
+    "identifiers": [
+      [
+        "xiaomi_home",
+        "cn_2021957403"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "linptech",
+    "model": "linp.switch.t2dbw2",
+    "model_id": null,
+    "modified_at": 1780123906.737088,
+    "name_by_user": null,
+    "name": "阳台开关",
+    "primary_config_entry": "01KSVTE3BADZN42A3VAQHKNFYW",
+    "serial_number": null,
+    "sw_version": "3.0.2_0017",
+    "via_device_id": null
+  },
+  {
+    "area_id": "zhu_wo",
+    "configuration_url": "https://home.mi.com/webapp/content/baike/product/index.html?model=linp.switch.t2dbw2",
+    "config_entries": [
+      "01KSVTE3BADZN42A3VAQHKNFYW"
+    ],
+    "config_entries_subentries": {
+      "01KSVTE3BADZN42A3VAQHKNFYW": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1780123906.74261,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "aec409024024084e558840f903cb88d3",
+    "identifiers": [
+      [
+        "xiaomi_home",
+        "cn_2022408943"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "linptech",
+    "model": "linp.switch.t2dbw2",
+    "model_id": null,
+    "modified_at": 1780123906.743169,
+    "name_by_user": null,
+    "name": "主卧开关（双键）",
+    "primary_config_entry": "01KSVTE3BADZN42A3VAQHKNFYW",
+    "serial_number": null,
+    "sw_version": "3.0.2_0017",
+    "via_device_id": null
+  },
+  {
+    "area_id": "zhu_wo",
+    "configuration_url": "https://home.mi.com/webapp/content/baike/product/index.html?model=lemesh.light.wy0d02",
+    "config_entries": [
+      "01KSVTE3BADZN42A3VAQHKNFYW"
+    ],
+    "config_entries_subentries": {
+      "01KSVTE3BADZN42A3VAQHKNFYW": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1780123906.749031,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "39672fac5c4042157a1fa503fa3a79a2",
+    "identifiers": [
+      [
+        "xiaomi_home",
+        "cn_2042902967"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "乐式",
+    "model": "lemesh.light.wy0d02",
+    "model_id": null,
+    "modified_at": 1780123906.749079,
+    "name_by_user": null,
+    "name": "衣柜灯",
+    "primary_config_entry": "01KSVTE3BADZN42A3VAQHKNFYW",
+    "serial_number": null,
+    "sw_version": "3.0.2_0020",
+    "via_device_id": null
+  },
+  {
+    "area_id": "ci_wo",
+    "configuration_url": "https://home.mi.com/webapp/content/baike/product/index.html?model=linp.switch.t2dbw2",
+    "config_entries": [
+      "01KSVTE3BADZN42A3VAQHKNFYW"
+    ],
+    "config_entries_subentries": {
+      "01KSVTE3BADZN42A3VAQHKNFYW": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1780123906.751121,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "80ab0b539da67c400bf3ee0c3586aeaf",
+    "identifiers": [
+      [
+        "xiaomi_home",
+        "cn_2022388066"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "linptech",
+    "model": "linp.switch.t2dbw2",
+    "model_id": null,
+    "modified_at": 1780123906.751259,
+    "name_by_user": null,
+    "name": "书房开关（双键） ",
+    "primary_config_entry": "01KSVTE3BADZN42A3VAQHKNFYW",
+    "serial_number": null,
+    "sw_version": "3.0.2_0017",
+    "via_device_id": null
+  },
+  {
+    "area_id": "yu_shi",
+    "configuration_url": "https://home.mi.com/webapp/content/baike/product/index.html?model=linp.switch.t2dbw2",
+    "config_entries": [
+      "01KSVTE3BADZN42A3VAQHKNFYW"
+    ],
+    "config_entries_subentries": {
+      "01KSVTE3BADZN42A3VAQHKNFYW": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1780123906.757134,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "4b8d2c6d72a9741d766a3142cec50f51",
+    "identifiers": [
+      [
+        "xiaomi_home",
+        "cn_2022466912"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "linptech",
+    "model": "linp.switch.t2dbw2",
+    "model_id": null,
+    "modified_at": 1780123906.757267,
+    "name_by_user": null,
+    "name": "浴室开关（双键）",
+    "primary_config_entry": "01KSVTE3BADZN42A3VAQHKNFYW",
+    "serial_number": null,
+    "sw_version": "3.0.2_0017",
+    "via_device_id": null
+  },
+  {
+    "area_id": "yu_shi",
+    "configuration_url": "https://home.mi.com/webapp/content/baike/product/index.html?model=narwa.vacuum.cx7",
+    "config_entries": [
+      "01KSVTE3BADZN42A3VAQHKNFYW"
+    ],
+    "config_entries_subentries": {
+      "01KSVTE3BADZN42A3VAQHKNFYW": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1780123906.763253,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "b0d87b9b10e8c587a7a608778edc7fed",
+    "identifiers": [
+      [
+        "xiaomi_home",
+        "cn_x_12053_1479518829_bywbpqsxec_ded8caa5f3b24d43ad6519a8fa95ae16"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "云鲸",
+    "model": "narwa.vacuum.cx7",
+    "model_id": null,
+    "modified_at": 1780123906.763301,
+    "name_by_user": null,
+    "name": "逍遥002 Max（超薄基站版）",
+    "primary_config_entry": "01KSVTE3BADZN42A3VAQHKNFYW",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": "chu_fang",
+    "configuration_url": "https://home.mi.com/webapp/content/baike/product/index.html?model=chunmi.cooker.eh3",
+    "config_entries": [
+      "01KSVTE3BADZN42A3VAQHKNFYW"
+    ],
+    "config_entries_subentries": {
+      "01KSVTE3BADZN42A3VAQHKNFYW": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1780123906.782834,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "8fc083779d4cf568e3923d4eedc77580",
+    "identifiers": [
+      [
+        "xiaomi_home",
+        "cn_583160283"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "知吾煮",
+    "model": "chunmi.cooker.eh3",
+    "model_id": null,
+    "modified_at": 1780123906.782883,
+    "name_by_user": null,
+    "name": "小饭煲",
+    "primary_config_entry": "01KSVTE3BADZN42A3VAQHKNFYW",
+    "serial_number": null,
+    "sw_version": "2.2.0_0010",
+    "via_device_id": null
+  },
+  {
+    "area_id": "xuan_guan",
+    "configuration_url": "https://home.mi.com/webapp/content/baike/product/index.html?model=xiaomi.lock.m30fc",
+    "config_entries": [
+      "01KSVTE3BADZN42A3VAQHKNFYW"
+    ],
+    "config_entries_subentries": {
+      "01KSVTE3BADZN42A3VAQHKNFYW": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1780123906.786459,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "b2541aae1f712d9101991f9d448a8b6c",
+    "identifiers": [
+      [
+        "xiaomi_home",
+        "cn_1154312776"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "小米",
+    "model": "xiaomi.lock.m30fc",
+    "model_id": null,
+    "modified_at": 1780123906.786595,
+    "name_by_user": null,
+    "name": "小米智能门锁 M30 人脸识别版",
+    "primary_config_entry": "01KSVTE3BADZN42A3VAQHKNFYW",
+    "serial_number": null,
+    "sw_version": "2.7.0_0309",
+    "via_device_id": null
+  },
+  {
+    "area_id": "xuan_guan",
+    "configuration_url": "https://home.mi.com/webapp/content/baike/product/index.html?model=linp.switch.t2dbw2",
+    "config_entries": [
+      "01KSVTE3BADZN42A3VAQHKNFYW"
+    ],
+    "config_entries_subentries": {
+      "01KSVTE3BADZN42A3VAQHKNFYW": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1780123906.787127,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "ab0e18e851104a34db0a40e6ee6ea116",
+    "identifiers": [
+      [
+        "xiaomi_home",
+        "cn_2022822455"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "linptech",
+    "model": "linp.switch.t2dbw2",
+    "model_id": null,
+    "modified_at": 1780123906.78716,
+    "name_by_user": null,
+    "name": "玄关右",
+    "primary_config_entry": "01KSVTE3BADZN42A3VAQHKNFYW",
+    "serial_number": null,
+    "sw_version": "3.0.2_0017",
+    "via_device_id": null
+  },
+  {
+    "area_id": "xuan_guan",
+    "configuration_url": "https://home.mi.com/webapp/content/baike/product/index.html?model=lemesh.light.wy0d02",
+    "config_entries": [
+      "01KSVTE3BADZN42A3VAQHKNFYW"
+    ],
+    "config_entries_subentries": {
+      "01KSVTE3BADZN42A3VAQHKNFYW": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1780123906.792586,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "b930bbc4872507c2fd62b37a61d6cf15",
+    "identifiers": [
+      [
+        "xiaomi_home",
+        "cn_2042893932"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "乐式",
+    "model": "lemesh.light.wy0d02",
+    "model_id": null,
+    "modified_at": 1780123906.792626,
+    "name_by_user": null,
+    "name": "鞋柜灯",
+    "primary_config_entry": "01KSVTE3BADZN42A3VAQHKNFYW",
+    "serial_number": null,
+    "sw_version": "3.0.2_0020",
+    "via_device_id": null
+  },
+  {
+    "area_id": "xuan_guan",
+    "configuration_url": "https://home.mi.com/webapp/content/baike/product/index.html?model=linp.switch.t2dbw2",
+    "config_entries": [
+      "01KSVTE3BADZN42A3VAQHKNFYW"
+    ],
+    "config_entries_subentries": {
+      "01KSVTE3BADZN42A3VAQHKNFYW": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1780123906.794686,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "a38dbbf53719646da3a257c8eaf8b1e4",
+    "identifiers": [
+      [
+        "xiaomi_home",
+        "cn_2043319688"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "linptech",
+    "model": "linp.switch.t2dbw2",
+    "model_id": null,
+    "modified_at": 1780123906.79473,
+    "name_by_user": null,
+    "name": "玄关左",
+    "primary_config_entry": "01KSVTE3BADZN42A3VAQHKNFYW",
+    "serial_number": null,
+    "sw_version": "3.0.2_0017",
+    "via_device_id": null
+  },
+  {
+    "area_id": "ke_ting",
+    "configuration_url": "https://home.mi.com/webapp/content/baike/product/index.html?model=bjkcz.curtain.kczble",
+    "config_entries": [
+      "01KSVTE3BADZN42A3VAQHKNFYW"
+    ],
+    "config_entries_subentries": {
+      "01KSVTE3BADZN42A3VAQHKNFYW": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1780123906.820796,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "0ed65628c553e6e5c53187653c27b636",
+    "identifiers": [
+      [
+        "xiaomi_home",
+        "cn_2096576206"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "科创者",
+    "model": "bjkcz.curtain.kczble",
+    "model_id": null,
+    "modified_at": 1780123906.820841,
+    "name_by_user": null,
+    "name": "阳台帘",
+    "primary_config_entry": "01KSVTE3BADZN42A3VAQHKNFYW",
+    "serial_number": null,
+    "sw_version": "3.0.2_0002",
+    "via_device_id": null
+  },
+  {
+    "area_id": "zhu_wo",
+    "configuration_url": "https://home.mi.com/webapp/content/baike/product/index.html?model=bjkcz.curtain.kczble",
+    "config_entries": [
+      "01KSVTE3BADZN42A3VAQHKNFYW"
+    ],
+    "config_entries_subentries": {
+      "01KSVTE3BADZN42A3VAQHKNFYW": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1780123906.826346,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "76c6ad435e772ff74caca4bd5ce99f74",
+    "identifiers": [
+      [
+        "xiaomi_home",
+        "cn_2098420438"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "科创者",
+    "model": "bjkcz.curtain.kczble",
+    "model_id": null,
+    "modified_at": 1780123906.826389,
+    "name_by_user": null,
+    "name": "主卧窗帘",
+    "primary_config_entry": "01KSVTE3BADZN42A3VAQHKNFYW",
+    "serial_number": null,
+    "sw_version": "3.0.2_0002",
+    "via_device_id": null
+  },
+  {
+    "area_id": "zhu_wo",
+    "configuration_url": "https://home.mi.com/webapp/content/baike/product/index.html?model=xiaomi.aircondition.m28",
+    "config_entries": [
+      "01KSVTE3BADZN42A3VAQHKNFYW"
+    ],
+    "config_entries_subentries": {
+      "01KSVTE3BADZN42A3VAQHKNFYW": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1780123906.827502,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "4cbdddcd0ea758989fa8d9c3474b9ea9",
+    "identifiers": [
+      [
+        "xiaomi_home",
+        "cn_862194962"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "小米",
+    "model": "xiaomi.aircondition.m28",
+    "model_id": null,
+    "modified_at": 1780123906.827537,
+    "name_by_user": null,
+    "name": "主卧空调",
+    "primary_config_entry": "01KSVTE3BADZN42A3VAQHKNFYW",
+    "serial_number": null,
+    "sw_version": "1.1.3",
+    "via_device_id": null
+  },
+  {
+    "area_id": "ci_wo",
+    "configuration_url": "https://home.mi.com/webapp/content/baike/product/index.html?model=xiaomi.airc.r10h00",
+    "config_entries": [
+      "01KSVTE3BADZN42A3VAQHKNFYW"
+    ],
+    "config_entries_subentries": {
+      "01KSVTE3BADZN42A3VAQHKNFYW": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1780123906.848099,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "8b16e42e2c8bcdc8ffb6340c20c7edfd",
+    "identifiers": [
+      [
+        "xiaomi_home",
+        "cn_2007224174"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "小米",
+    "model": "xiaomi.airc.r10h00",
+    "model_id": null,
+    "modified_at": 1780123906.848143,
+    "name_by_user": null,
+    "name": "书房空调",
+    "primary_config_entry": "01KSVTE3BADZN42A3VAQHKNFYW",
+    "serial_number": null,
+    "sw_version": "1.1.3",
+    "via_device_id": null
+  },
+  {
+    "area_id": "yu_shi",
+    "configuration_url": "https://home.mi.com/webapp/content/baike/product/index.html?model=aupu.bhf_light.s01md2",
+    "config_entries": [
+      "01KSVTE3BADZN42A3VAQHKNFYW"
+    ],
+    "config_entries_subentries": {
+      "01KSVTE3BADZN42A3VAQHKNFYW": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1780123906.869207,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "a005a406c4c7803d754376be114cd5cb",
+    "identifiers": [
+      [
+        "xiaomi_home",
+        "cn_965024497"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "AUPU奥普",
+    "model": "aupu.bhf_light.s01md2",
+    "model_id": null,
+    "modified_at": 1780123906.86925,
+    "name_by_user": null,
+    "name": "浴霸",
+    "primary_config_entry": "01KSVTE3BADZN42A3VAQHKNFYW",
+    "serial_number": null,
+    "sw_version": "1.0.3_0006",
+    "via_device_id": null
+  },
+  {
+    "area_id": "chu_fang",
+    "configuration_url": "https://home.mi.com/webapp/content/baike/product/index.html?model=xiaomi.hood.cyp10",
+    "config_entries": [
+      "01KSVTE3BADZN42A3VAQHKNFYW"
+    ],
+    "config_entries_subentries": {
+      "01KSVTE3BADZN42A3VAQHKNFYW": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1780123906.902312,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "77dd741a0f987c480e1d53dd53045c8a",
+    "identifiers": [
+      [
+        "xiaomi_home",
+        "cn_2047692781"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "小米",
+    "model": "xiaomi.hood.cyp10",
+    "model_id": null,
+    "modified_at": 1780123906.902357,
+    "name_by_user": null,
+    "name": "油烟机",
+    "primary_config_entry": "01KSVTE3BADZN42A3VAQHKNFYW",
+    "serial_number": null,
+    "sw_version": "1.0.5",
+    "via_device_id": null
+  },
+  {
+    "area_id": "ke_ting",
+    "configuration_url": "https://home.mi.com/webapp/content/baike/product/index.html?model=090615.light.milg05",
+    "config_entries": [
+      "01KSVTE3BADZN42A3VAQHKNFYW"
+    ],
+    "config_entries_subentries": {
+      "01KSVTE3BADZN42A3VAQHKNFYW": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1780123906.94051,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "410755ff28fedc190323079a3d7c9616",
+    "identifiers": [
+      [
+        "xiaomi_home",
+        "cn_2022122260"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "PTX",
+    "model": "090615.light.milg05",
+    "model_id": null,
+    "modified_at": 1780123906.940572,
+    "name_by_user": null,
+    "name": "平头熊F1调光筒射灯(Mesh2.0) 4",
+    "primary_config_entry": "01KSVTE3BADZN42A3VAQHKNFYW",
+    "serial_number": null,
+    "sw_version": "3.0.2_0153",
+    "via_device_id": null
+  },
+  {
+    "area_id": "ke_ting",
+    "configuration_url": "https://home.mi.com/webapp/content/baike/product/index.html?model=090615.light.milg05",
+    "config_entries": [
+      "01KSVTE3BADZN42A3VAQHKNFYW"
+    ],
+    "config_entries_subentries": {
+      "01KSVTE3BADZN42A3VAQHKNFYW": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1780123906.944174,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "a32445fc4bc826d354af9993d7451618",
+    "identifiers": [
+      [
+        "xiaomi_home",
+        "cn_2041348683"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "PTX",
+    "model": "090615.light.milg05",
+    "model_id": null,
+    "modified_at": 1780123906.944222,
+    "name_by_user": null,
+    "name": "平头熊F1调光筒射灯(Mesh2.0) 3",
+    "primary_config_entry": "01KSVTE3BADZN42A3VAQHKNFYW",
+    "serial_number": null,
+    "sw_version": "3.0.2_0153",
+    "via_device_id": null
+  },
+  {
+    "area_id": "ke_ting",
+    "configuration_url": "https://home.mi.com/webapp/content/baike/product/index.html?model=cuco.plug.cp1",
+    "config_entries": [
+      "01KSVTE3BADZN42A3VAQHKNFYW"
+    ],
+    "config_entries_subentries": {
+      "01KSVTE3BADZN42A3VAQHKNFYW": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1780123906.948242,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "fb7f1f98ac1bff045652d4bc2bdbf9e2",
+    "identifiers": [
+      [
+        "xiaomi_home",
+        "cn_482606571"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Gosund",
+    "model": "cuco.plug.cp1",
+    "model_id": null,
+    "modified_at": 1780123906.948292,
+    "name_by_user": null,
+    "name": "智能插座",
+    "primary_config_entry": "01KSVTE3BADZN42A3VAQHKNFYW",
+    "serial_number": null,
+    "sw_version": "2.0.1_0013",
+    "via_device_id": null
+  },
+  {
+    "area_id": "ke_ting",
+    "configuration_url": "https://home.mi.com/webapp/content/baike/product/index.html?model=090615.light.milg05",
+    "config_entries": [
+      "01KSVTE3BADZN42A3VAQHKNFYW"
+    ],
+    "config_entries_subentries": {
+      "01KSVTE3BADZN42A3VAQHKNFYW": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1780123906.948836,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "c20710c4f2675e0d40bf26e248b21857",
+    "identifiers": [
+      [
+        "xiaomi_home",
+        "cn_947717173"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "PTX",
+    "model": "090615.light.milg05",
+    "model_id": null,
+    "modified_at": 1780123906.948869,
+    "name_by_user": null,
+    "name": "平头熊F1调光筒射灯(Mesh2.0) 2",
+    "primary_config_entry": "01KSVTE3BADZN42A3VAQHKNFYW",
+    "serial_number": null,
+    "sw_version": "3.0.2_0153",
+    "via_device_id": null
+  },
+  {
+    "area_id": "ke_ting",
+    "configuration_url": "https://home.mi.com/webapp/content/baike/product/index.html?model=090615.light.milg05",
+    "config_entries": [
+      "01KSVTE3BADZN42A3VAQHKNFYW"
+    ],
+    "config_entries_subentries": {
+      "01KSVTE3BADZN42A3VAQHKNFYW": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1780123906.951048,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "daf8970a902cf6448f476731ba20a1bf",
+    "identifiers": [
+      [
+        "xiaomi_home",
+        "cn_947770195"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "PTX",
+    "model": "090615.light.milg05",
+    "model_id": null,
+    "modified_at": 1780123906.951084,
+    "name_by_user": null,
+    "name": "平头熊F1调光筒射灯(Mesh2.0)",
+    "primary_config_entry": "01KSVTE3BADZN42A3VAQHKNFYW",
+    "serial_number": null,
+    "sw_version": "3.0.2_0153",
+    "via_device_id": null
+  },
+  {
+    "area_id": "yu_shi",
+    "configuration_url": "https://home.mi.com/webapp/content/baike/product/index.html?model=giot.plug.v9icm",
+    "config_entries": [
+      "01KSVTE3BADZN42A3VAQHKNFYW"
+    ],
+    "config_entries_subentries": {
+      "01KSVTE3BADZN42A3VAQHKNFYW": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1780123906.989098,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "e320c14782ee44706eb98b25382c9df8",
+    "identifiers": [
+      [
+        "xiaomi_home",
+        "cn_2022913171"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "GranchipIoT",
+    "model": "giot.plug.v9icm",
+    "model_id": null,
+    "modified_at": 1780123906.989144,
+    "name_by_user": null,
+    "name": "浴室镜灯",
+    "primary_config_entry": "01KSVTE3BADZN42A3VAQHKNFYW",
+    "serial_number": null,
+    "sw_version": "3.0.2_0006",
+    "via_device_id": null
+  },
+  {
+    "area_id": "yu_shi",
+    "configuration_url": "https://home.mi.com/webapp/content/baike/product/index.html?model=090615.light.milg05",
+    "config_entries": [
+      "01KSVTE3BADZN42A3VAQHKNFYW"
+    ],
+    "config_entries_subentries": {
+      "01KSVTE3BADZN42A3VAQHKNFYW": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1780123906.991627,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "339e1dd4e1ede500b738bf218ebf6d41",
+    "identifiers": [
+      [
+        "xiaomi_home",
+        "cn_2041100467"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "PTX",
+    "model": "090615.light.milg05",
+    "model_id": null,
+    "modified_at": 1780123906.991675,
+    "name_by_user": null,
+    "name": "主卧门外筒灯",
+    "primary_config_entry": "01KSVTE3BADZN42A3VAQHKNFYW",
+    "serial_number": null,
+    "sw_version": "3.0.2_0153",
+    "via_device_id": null
+  },
+  {
+    "area_id": "yu_shi",
+    "configuration_url": "https://home.mi.com/webapp/content/baike/product/index.html?model=090615.light.milg05",
+    "config_entries": [
+      "01KSVTE3BADZN42A3VAQHKNFYW"
+    ],
+    "config_entries_subentries": {
+      "01KSVTE3BADZN42A3VAQHKNFYW": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1780123906.995214,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "7832c4c228bd9c61ea82fb306975c402",
+    "identifiers": [
+      [
+        "xiaomi_home",
+        "cn_2041206709"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "PTX",
+    "model": "090615.light.milg05",
+    "model_id": null,
+    "modified_at": 1780123906.995272,
+    "name_by_user": null,
+    "name": "浴室门外筒灯",
+    "primary_config_entry": "01KSVTE3BADZN42A3VAQHKNFYW",
+    "serial_number": null,
+    "sw_version": "3.0.2_0153",
+    "via_device_id": null
+  },
+  {
+    "area_id": "chu_fang",
+    "configuration_url": "https://home.mi.com/webapp/content/baike/product/index.html?model=090615.light.milg05",
+    "config_entries": [
+      "01KSVTE3BADZN42A3VAQHKNFYW"
+    ],
+    "config_entries_subentries": {
+      "01KSVTE3BADZN42A3VAQHKNFYW": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1780123907.02642,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "d6e766c479de8510e0df0d7db2cf53cd",
+    "identifiers": [
+      [
+        "xiaomi_home",
+        "cn_2020766823"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "PTX",
+    "model": "090615.light.milg05",
+    "model_id": null,
+    "modified_at": 1780123907.02647,
+    "name_by_user": null,
+    "name": "平头熊F1调光筒射灯(Mesh2.0) 8",
+    "primary_config_entry": "01KSVTE3BADZN42A3VAQHKNFYW",
+    "serial_number": null,
+    "sw_version": "3.0.2_0153",
+    "via_device_id": null
+  },
+  {
+    "area_id": "chu_fang",
+    "configuration_url": "https://home.mi.com/webapp/content/baike/product/index.html?model=090615.light.milg05",
+    "config_entries": [
+      "01KSVTE3BADZN42A3VAQHKNFYW"
+    ],
+    "config_entries_subentries": {
+      "01KSVTE3BADZN42A3VAQHKNFYW": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1780123907.02907,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "eff94a730ceb816daa59605dc640b1c8",
+    "identifiers": [
+      [
+        "xiaomi_home",
+        "cn_2022075801"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "PTX",
+    "model": "090615.light.milg05",
+    "model_id": null,
+    "modified_at": 1780123907.029119,
+    "name_by_user": null,
+    "name": "平头熊F1调光筒射灯(Mesh2.0) 5",
+    "primary_config_entry": "01KSVTE3BADZN42A3VAQHKNFYW",
+    "serial_number": null,
+    "sw_version": "3.0.2_0153",
+    "via_device_id": null
+  },
+  {
+    "area_id": "chu_fang",
+    "configuration_url": "https://home.mi.com/webapp/content/baike/product/index.html?model=090615.light.milg05",
+    "config_entries": [
+      "01KSVTE3BADZN42A3VAQHKNFYW"
+    ],
+    "config_entries_subentries": {
+      "01KSVTE3BADZN42A3VAQHKNFYW": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1780123907.032608,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "ac1a329b40ab567060417efc0e030b8c",
+    "identifiers": [
+      [
+        "xiaomi_home",
+        "cn_2022159375"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "PTX",
+    "model": "090615.light.milg05",
+    "model_id": null,
+    "modified_at": 1780123907.03265,
+    "name_by_user": null,
+    "name": "平头熊F1调光筒射灯(Mesh2.0) 6",
+    "primary_config_entry": "01KSVTE3BADZN42A3VAQHKNFYW",
+    "serial_number": null,
+    "sw_version": "3.0.2_0153",
+    "via_device_id": null
+  },
+  {
+    "area_id": "chu_fang",
+    "configuration_url": "https://home.mi.com/webapp/content/baike/product/index.html?model=090615.light.milg05",
+    "config_entries": [
+      "01KSVTE3BADZN42A3VAQHKNFYW"
+    ],
+    "config_entries_subentries": {
+      "01KSVTE3BADZN42A3VAQHKNFYW": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1780123907.03501,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "bd85466b95041ddf9c61278c98421131",
+    "identifiers": [
+      [
+        "xiaomi_home",
+        "cn_2041206744"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "PTX",
+    "model": "090615.light.milg05",
+    "model_id": null,
+    "modified_at": 1780123907.035053,
+    "name_by_user": null,
+    "name": "平头熊F1调光筒射灯(Mesh2.0) 7",
+    "primary_config_entry": "01KSVTE3BADZN42A3VAQHKNFYW",
+    "serial_number": null,
+    "sw_version": "3.0.2_0153",
+    "via_device_id": null
+  },
+  {
+    "area_id": "ke_ting",
+    "configuration_url": "https://home.mi.com/webapp/content/baike/product/index.html?model=mijia.light.group3",
+    "config_entries": [
+      "01KSVTE3BADZN42A3VAQHKNFYW"
+    ],
+    "config_entries_subentries": {
+      "01KSVTE3BADZN42A3VAQHKNFYW": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1780123907.119479,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "d73775b554c7a663cb491f69fd2c9400",
+    "identifiers": [
+      [
+        "xiaomi_home",
+        "cn_group_1978089154580332544"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "米家",
+    "model": "mijia.light.group3",
+    "model_id": null,
+    "modified_at": 1780123907.119533,
+    "name_by_user": null,
+    "name": "电视墙射灯",
+    "primary_config_entry": "01KSVTE3BADZN42A3VAQHKNFYW",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": "yu_shi",
+    "configuration_url": "https://home.mi.com/webapp/content/baike/product/index.html?model=mijia.light.group3",
+    "config_entries": [
+      "01KSVTE3BADZN42A3VAQHKNFYW"
+    ],
+    "config_entries_subentries": {
+      "01KSVTE3BADZN42A3VAQHKNFYW": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1780123907.143731,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "b9409f50e5fb5047ed6c917a040838d2",
+    "identifiers": [
+      [
+        "xiaomi_home",
+        "cn_group_1978088695174021121"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "米家",
+    "model": "mijia.light.group3",
+    "model_id": null,
+    "modified_at": 1780123907.143774,
+    "name_by_user": null,
+    "name": "浴室外筒灯",
+    "primary_config_entry": "01KSVTE3BADZN42A3VAQHKNFYW",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": "chu_fang",
+    "configuration_url": "https://home.mi.com/webapp/content/baike/product/index.html?model=mijia.light.group3",
+    "config_entries": [
+      "01KSVTE3BADZN42A3VAQHKNFYW"
+    ],
+    "config_entries_subentries": {
+      "01KSVTE3BADZN42A3VAQHKNFYW": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1780123907.189109,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "bcda237bb4ab9c7e6cd2c701d4ced5b9",
+    "identifiers": [
+      [
+        "xiaomi_home",
+        "cn_group_1978090431347445760"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "米家",
+    "model": "mijia.light.group3",
+    "model_id": null,
+    "modified_at": 1780123907.189168,
+    "name_by_user": null,
+    "name": "厨房筒灯",
+    "primary_config_entry": "01KSVTE3BADZN42A3VAQHKNFYW",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": "xuan_guan",
+    "configuration_url": "https://home.mi.com/webapp/content/baike/product/index.html?model=mijia.light.group3",
+    "config_entries": [
+      "01KSVTE3BADZN42A3VAQHKNFYW"
+    ],
+    "config_entries_subentries": {
+      "01KSVTE3BADZN42A3VAQHKNFYW": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1780123907.199513,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "63d4cc8c2b86253b86914f6d9a5cf23c",
+    "identifiers": [
+      [
+        "xiaomi_home",
+        "cn_group_1978089679472308224"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "米家",
+    "model": "mijia.light.group3",
+    "model_id": null,
+    "modified_at": 1780123907.199555,
+    "name_by_user": null,
+    "name": "玄关筒灯",
+    "primary_config_entry": "01KSVTE3BADZN42A3VAQHKNFYW",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  }
+]

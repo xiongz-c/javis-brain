@@ -1,10 +1,6 @@
 # Local application snapshots and source trees
 /vaultfolio/
 
-# Home Assistant audits contain device names, entity ids, state snapshots, and
-# local home topology. Keep them local unless a sanitized subset is added later.
-/homeassistant-optimization/
-
 # Runtime data, secrets, and local caches
 /.env
 /.env.*
@@ -31,4 +27,3 @@
 ._*
 *.swp
 *.swo
-

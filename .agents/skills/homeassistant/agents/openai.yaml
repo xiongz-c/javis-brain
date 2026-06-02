@@ -1,0 +1,4 @@
+display_name: Home Assistant
+short_description: Use Home Assistant safely.
+default_prompt: Use the Home Assistant skill to inspect entity state, diagnose automations, and perform confirmed low-risk home controls.
+
