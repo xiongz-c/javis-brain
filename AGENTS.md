@@ -36,6 +36,13 @@ curl -fsS --max-time 5 http://api:18087/api/health
 curl -fsS --max-time 5 http://homeassistant:8123/api/
 ```
 
+Vaultfolio production deployment has a normal delay after `main` is updated.
+The Docker publish workflow builds and promotes images first, then the NAS
+auto-deployer polls and pulls the new `:main` image on its own schedule. After a
+merge/push to `main`, wait 10-15 minutes before treating a stale `/api/health`
+commit as a deployment problem. Verify deployment by checking that
+`/api/health` reports the expected commit SHA before validating new API fields.
+
 Vaultfolio's SQLite database is mounted inside the Vaultfolio backend runtime
 and should normally be accessed through the API rather than directly from this
 workspace. For read-only Vaultfolio inspection, prefer API endpoints such as:
