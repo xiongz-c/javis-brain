@@ -20,6 +20,12 @@ code, run frontend or backend builds, compile large projects, reinstall
 dependencies, or start heavy development servers unless the owner explicitly
 asks for that coding or build action.
 
+Keep the shared `/workspaces` checkout on the latest `main` for routine
+Botmux/Codex context lookup. Do not create or switch to feature branches,
+worktrees, or PR review branches just to inspect context or answer operational
+questions. Only leave `main` when the owner explicitly requests code changes,
+branch work, PR review, or another source-control operation.
+
 When running in Botmux/Lark, terminal output is not visible to the owner. Send
 owner-facing updates and final answers through Botmux.
 
